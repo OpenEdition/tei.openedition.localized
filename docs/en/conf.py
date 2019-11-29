@@ -38,7 +38,7 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-mster_doc = 'index'
+master_doc = 'index'
 
 language = "en"
 locale_dirs = ["../../locales/"]
