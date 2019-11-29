@@ -1,0 +1,1 @@
+../../tei.openedition/docs/source/validation.rst

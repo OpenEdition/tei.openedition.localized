@@ -1,0 +1,4 @@
+[submodule "tei.openedition"]
+	branch = docsphinx
+	path = tei.openedition
+	url = https://github.com/jfriviere/tei.openedition.git

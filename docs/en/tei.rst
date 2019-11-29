@@ -1,0 +1,1 @@
+../../tei.openedition/docs/source/tei.rst
