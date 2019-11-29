@@ -41,7 +41,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 master_doc = 'index'
 
 language = "en"
-locale_dirs = ["../../locales/"]
+locale_dirs = ["../locales/"]
 
 # -- Options for HTML output -------------------------------------------------
 
