@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition TEI \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 16:08+0100\n"
+"POT-Creation-Date: 2019-11-30 19:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "TEI"
 msgstr ""
 
 #: ../../en/tei.rst:4
-msgid "Documentation (français)"
+msgid "Documentation"
 msgstr ""
 
 #: ../../en/tei.rst:7
@@ -58,4 +58,7 @@ msgid ""
 "Lodel1.0.xml "
 "<https://github.com/OpenEdition/tei.openedition/blob/master/doc/lorem_ipsum_lodel_1.0.xml>`__."
 msgstr ""
+
+#~ msgid "Documentation (français)"
+#~ msgstr ""
 
