@@ -8,15 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition TEI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 16:08+0100\n"
-"PO-Revision-Date: 2019-12-02 09:53+0100\n"
+"POT-Creation-Date: 2019-12-02 17:08+0100\n"
+"PO-Revision-Date: 2019-12-02 17:10+0100\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en_US\n"
 "X-Generator: Poedit 2.2.1\n"
 
 #: ../../en/tei.text.rst:4
@@ -41,17 +42,17 @@ msgstr ""
 msgid "Résumés"
 msgstr "Abstracts"
 
-#: ../../en/tei.text.rst:27 ../../en/tei.text.rst:64 ../../en/tei.text.rst:106
-#: ../../en/tei.text.rst:259
+#: ../../en/tei.text.rst:27 ../../en/tei.text.rst:64 ../../en/tei.text.rst:110
+#: ../../en/tei.text.rst:263
 msgid "**XPath**"
 msgstr ""
 
 #: ../../en/tei.text.rst:29
 msgid "Résumé : ``/TEI/text/front/div[@type='abstract' and @xml:lang]``"
-msgstr ""
+msgstr "Abstract : ``/TEI/text/front/div[@type='abstract' and @xml:lang]``"
 
-#: ../../en/tei.text.rst:32 ../../en/tei.text.rst:116 ../../en/tei.text.rst:962
-#: ../../en/tei.text.rst:1008
+#: ../../en/tei.text.rst:32 ../../en/tei.text.rst:120 ../../en/tei.text.rst:966
+#: ../../en/tei.text.rst:1012
 msgid "**Recommandations d'usage**"
 msgstr ""
 
@@ -68,12 +69,12 @@ msgstr ""
 msgid "pas d'appel de notes."
 msgstr ""
 
-#: ../../en/tei.text.rst:39 ../../en/tei.text.rst:83 ../../en/tei.text.rst:124
-#: ../../en/tei.text.rst:180 ../../en/tei.text.rst:231 ../../en/tei.text.rst:269
-#: ../../en/tei.text.rst:328 ../../en/tei.text.rst:379 ../../en/tei.text.rst:448
-#: ../../en/tei.text.rst:508 ../../en/tei.text.rst:591 ../../en/tei.text.rst:664
-#: ../../en/tei.text.rst:701 ../../en/tei.text.rst:732 ../../en/tei.text.rst:769
-#: ../../en/tei.text.rst:970 ../../en/tei.text.rst:1014
+#: ../../en/tei.text.rst:39 ../../en/tei.text.rst:83 ../../en/tei.text.rst:128
+#: ../../en/tei.text.rst:184 ../../en/tei.text.rst:235 ../../en/tei.text.rst:273
+#: ../../en/tei.text.rst:332 ../../en/tei.text.rst:383 ../../en/tei.text.rst:452
+#: ../../en/tei.text.rst:512 ../../en/tei.text.rst:595 ../../en/tei.text.rst:668
+#: ../../en/tei.text.rst:705 ../../en/tei.text.rst:736 ../../en/tei.text.rst:773
+#: ../../en/tei.text.rst:974 ../../en/tei.text.rst:1018
 msgid "**Exemple**"
 msgstr ""
 
@@ -139,545 +140,552 @@ msgstr ""
 msgid "Note de l’auteur, note de la rédaction, erratum, remerciements"
 msgstr ""
 
-#: ../../en/tei.text.rst:109
-msgid "Note de l’auteur : ``/TEI/text/front/note[@resp='author']/p``"
-msgstr ""
-
-#: ../../en/tei.text.rst:110
-msgid "Note de la rédaction : ``/TEI/text/front/note[@resp='editor']/p``"
-msgstr ""
-
-#: ../../en/tei.text.rst:111
-msgid "Erratum : ``/TEI/text/front/div[@type='correction']/p``"
-msgstr ""
-
-#: ../../en/tei.text.rst:112
-msgid "Dédicace : ``/TEI/text/front/div[@type='dedication']/p``"
+#: ../../en/tei.text.rst:108
+msgid ""
+"Pour l'import des documents, les Xpath indiquées pour les notes de l'auteur et "
+"de la rédaction sont compatibles avec les versions 1.6.2 et supérieures du "
+"schéma TEI OpenEdition."
 msgstr ""
 
 #: ../../en/tei.text.rst:113
+msgid "Note de l’auteur : ``/TEI/text/front/note[@type='author']/p``"
+msgstr ""
+
+#: ../../en/tei.text.rst:114
+msgid "Note de la rédaction : ``/TEI/text/front/note[@type='publisher']/p``"
+msgstr ""
+
+#: ../../en/tei.text.rst:115
+msgid "Erratum : ``/TEI/text/front/div[@type='correction']/p``"
+msgstr ""
+
+#: ../../en/tei.text.rst:116
+msgid "Dédicace : ``/TEI/text/front/div[@type='dedication']/p``"
+msgstr ""
+
+#: ../../en/tei.text.rst:117
 msgid "Remerciements : ``/TEI/text/front/div[@type='ack']/p``"
 msgstr ""
 
-#: ../../en/tei.text.rst:118
+#: ../../en/tei.text.rst:122
 msgid "plusieurs paragraphes autorisés"
 msgstr ""
 
-#: ../../en/tei.text.rst:119
+#: ../../en/tei.text.rst:123
 msgid "saut de ligne autorisés (balise ``<lb />``) ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:159
+#: ../../en/tei.text.rst:163
 msgid "body"
 msgstr ""
 
-#: ../../en/tei.text.rst:162
+#: ../../en/tei.text.rst:166
 msgid ""
 "L'élément ``body`` contient tout le corps de texte à l'exclusion des parties "
 "pré- ou post-liminaire"
 msgstr ""
 
-#: ../../en/tei.text.rst:168
+#: ../../en/tei.text.rst:172
 msgid "Structure du texte et intertitres"
 msgstr ""
 
-#: ../../en/tei.text.rst:170 ../../en/tei.text.rst:217 ../../en/tei.text.rst:317
-#: ../../en/tei.text.rst:365 ../../en/tei.text.rst:423 ../../en/tei.text.rst:581
-#: ../../en/tei.text.rst:656 ../../en/tei.text.rst:685 ../../en/tei.text.rst:722
-#: ../../en/tei.text.rst:760 ../../en/tei.text.rst:802 ../../en/tei.text.rst:956
-#: ../../en/tei.text.rst:1004
+#: ../../en/tei.text.rst:174 ../../en/tei.text.rst:221 ../../en/tei.text.rst:321
+#: ../../en/tei.text.rst:369 ../../en/tei.text.rst:427 ../../en/tei.text.rst:585
+#: ../../en/tei.text.rst:660 ../../en/tei.text.rst:689 ../../en/tei.text.rst:726
+#: ../../en/tei.text.rst:764 ../../en/tei.text.rst:806 ../../en/tei.text.rst:960
+#: ../../en/tei.text.rst:1008
 msgid "**Xpath**"
 msgstr ""
 
-#: ../../en/tei.text.rst:172
+#: ../../en/tei.text.rst:176
 msgid "sections : ``//div``"
 msgstr ""
 
-#: ../../en/tei.text.rst:173
+#: ../../en/tei.text.rst:177
 msgid "Intertitres : ``//head[@subtype='leveln']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:175 ../../en/tei.text.rst:223 ../../en/tei.text.rst:264
-#: ../../en/tei.text.rst:323 ../../en/tei.text.rst:374 ../../en/tei.text.rst:428
-#: ../../en/tei.text.rst:587 ../../en/tei.text.rst:660 ../../en/tei.text.rst:693
-#: ../../en/tei.text.rst:726 ../../en/tei.text.rst:764 ../../en/tei.text.rst:811
+#: ../../en/tei.text.rst:179 ../../en/tei.text.rst:227 ../../en/tei.text.rst:268
+#: ../../en/tei.text.rst:327 ../../en/tei.text.rst:378 ../../en/tei.text.rst:432
+#: ../../en/tei.text.rst:591 ../../en/tei.text.rst:664 ../../en/tei.text.rst:697
+#: ../../en/tei.text.rst:730 ../../en/tei.text.rst:768 ../../en/tei.text.rst:815
 msgid "**Recommandations d'usages**"
 msgstr ""
 
-#: ../../en/tei.text.rst:177
+#: ../../en/tei.text.rst:181
 msgid ""
 "le texte du document doit être structuré par des sections (balises ``<div>``) ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:178
+#: ../../en/tei.text.rst:182
 msgid ""
 "les intertitres doivent être indiqués comme premier élément de la section dans "
 "une balise ``<head>`` avec un attribut ``subtype=\"leveln\"``  où 'leveln' peut "
 "prendre toutes les valeurs comprises entre 'level1' et 'level6'"
 msgstr ""
 
-#: ../../en/tei.text.rst:214
+#: ../../en/tei.text.rst:218
 msgid "Notes de bas de page et notes de fin"
 msgstr ""
 
-#: ../../en/tei.text.rst:219
+#: ../../en/tei.text.rst:223
 msgid "Note de bas de page : ``//note[@place='foot' and @n]/p``"
 msgstr ""
 
-#: ../../en/tei.text.rst:220
+#: ../../en/tei.text.rst:224
 msgid "Note de fin : ``//note[@place='end'and @n]/p``"
 msgstr ""
 
-#: ../../en/tei.text.rst:225
+#: ../../en/tei.text.rst:229
 msgid "insérées dans le texte dans des balises ``<note>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:226
+#: ../../en/tei.text.rst:230
 msgid "l'attribut 'place' indique le type de note ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:227
+#: ../../en/tei.text.rst:231
 msgid "l'attribut 'n' indique le numéro de la note ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:228
+#: ../../en/tei.text.rst:232
 msgid ""
 "le contenu de la note doit impérativement être placé dans un ou plusieurs "
 "paragraphes."
 msgstr ""
 
-#: ../../en/tei.text.rst:243 ../../en/tei.text.rst:344 ../../en/tei.text.rst:405
-#: ../../en/tei.text.rst:485 ../../en/tei.text.rst:551 ../../en/tei.text.rst:742
-#: ../../en/tei.text.rst:785
+#: ../../en/tei.text.rst:247 ../../en/tei.text.rst:348 ../../en/tei.text.rst:409
+#: ../../en/tei.text.rst:489 ../../en/tei.text.rst:555 ../../en/tei.text.rst:746
+#: ../../en/tei.text.rst:789
 msgid "**Résultat HTML**"
 msgstr ""
 
-#: ../../en/tei.text.rst:257
+#: ../../en/tei.text.rst:261
 msgid "Mises en forme du texte : balises hi, attributs rend et rendition"
 msgstr ""
 
-#: ../../en/tei.text.rst:261
+#: ../../en/tei.text.rst:265
 msgid "Mise en forme : ``//hi[@rend ou @rendition]``"
 msgstr ""
 
-#: ../../en/tei.text.rst:262
+#: ../../en/tei.text.rst:266
 msgid "Définition des styles  : ``/TEI/teiHeader/encodingDesc/tagsDecl``"
 msgstr ""
 
-#: ../../en/tei.text.rst:266
+#: ../../en/tei.text.rst:270
 msgid ""
 "valeurs possibles pour l'attribut 'rend' de la balise ``<hi>`` : ``italic``, "
 "``bold``, ``sup``, ``sub``, ``uppercase``, ``small-caps``, ``underline`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:267
+#: ../../en/tei.text.rst:271
 msgid ""
 "l'attribut 'rendition' de la balise ``<hi>`` doit faire référence à un style "
 "défini au format css dans la balise ``<tagsDecl>`` du header."
 msgstr ""
 
-#: ../../en/tei.text.rst:301 ../../en/tei.text.rst:637 ../../en/tei.text.rst:674
-#: ../../en/tei.text.rst:886
+#: ../../en/tei.text.rst:305 ../../en/tei.text.rst:641 ../../en/tei.text.rst:678
+#: ../../en/tei.text.rst:890
 msgid "**Résultat HTML (rendu)**"
 msgstr ""
 
-#: ../../en/tei.text.rst:315
+#: ../../en/tei.text.rst:319
 msgid "Citations"
 msgstr ""
 
-#: ../../en/tei.text.rst:319
+#: ../../en/tei.text.rst:323
 msgid "Citation : ``//q[@rend='quotation']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:320
+#: ../../en/tei.text.rst:324
 msgid "Citation bis : ``//q[@rend='quotation2']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:321
+#: ../../en/tei.text.rst:325
 msgid "Citation ter : ``//q[@rend='quotation3']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:325
+#: ../../en/tei.text.rst:329
 msgid "utiliser de préférence ``<q rend='citation'>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:326
+#: ../../en/tei.text.rst:330
 msgid ""
 "les 2 autres styles de citations servent à différencier plusieurs niveaux de "
 "citation au niveau de l'affichage html."
 msgstr ""
 
-#: ../../en/tei.text.rst:363
+#: ../../en/tei.text.rst:367
 msgid ""
 "Styles de paragraphe (question, réponse, paragraphe sans retrait, encadré, "
 "épigraphe)"
 msgstr ""
 
-#: ../../en/tei.text.rst:367
+#: ../../en/tei.text.rst:371
 msgid "Question : ``//p[@rend='question']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:368
+#: ../../en/tei.text.rst:372
 msgid "Réponse : ``//p[@rend='answer']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:369
+#: ../../en/tei.text.rst:373
 msgid "Paragraphe sans retrait : ``//p[@rend='noindent']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:370
+#: ../../en/tei.text.rst:374
 msgid "Encadré : ``//p[@rend='box']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:371
+#: ../../en/tei.text.rst:375
 msgid "Epigraphe : ``//p[@rend='epigraph']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:372
+#: ../../en/tei.text.rst:376
 msgid "Séparateur : ``//p[@rend='break']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:376
+#: ../../en/tei.text.rst:380
 msgid ""
 "les styles questions / réponses permettent de différencier ces éléments au "
 "niveau de l'affichage html dans les entretiens"
 msgstr ""
 
-#: ../../en/tei.text.rst:377
+#: ../../en/tei.text.rst:381
 msgid ""
 "le paragraphe sans retrait est utilisé pour exprimer une continuité d'idée, il "
 "ne comporte pas de numérotation de paragraphe"
 msgstr ""
 
-#: ../../en/tei.text.rst:421
+#: ../../en/tei.text.rst:425
 msgid "Listes"
 msgstr ""
 
-#: ../../en/tei.text.rst:425
+#: ../../en/tei.text.rst:429
 msgid "Éléments de liste non-ordonnée : ``//list[@type='unordered']/item``"
 msgstr ""
 
-#: ../../en/tei.text.rst:426
+#: ../../en/tei.text.rst:430
 msgid "Éléments de liste ordonnée : ``//list[@type='ordered']/item``"
 msgstr ""
 
-#: ../../en/tei.text.rst:430
+#: ../../en/tei.text.rst:434
 msgid ""
 "possibilité d'imbriquer des éléments de listes ordonnées ou non ordonnées ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:431
+#: ../../en/tei.text.rst:435
 msgid ""
 "possibilité de définir un type de numérotation avec l' attribut 'rendition' sur "
 "l'élément ``<list>``."
 msgstr ""
 
-#: ../../en/tei.text.rst:432
+#: ../../en/tei.text.rst:436
 msgid ""
 "l'attribut 'rendition' fait référence à un style défini dans la balise "
 "``<tagsDecl>`` du header."
 msgstr ""
 
-#: ../../en/tei.text.rst:434
+#: ../../en/tei.text.rst:438
 msgid ""
 "Valeurs autorisées de l'attribut 'rendition' pour les listes non ordonnées :"
 msgstr ""
 
-#: ../../en/tei.text.rst:436
+#: ../../en/tei.text.rst:440
 msgid "``list-style-type:disc``"
 msgstr ""
 
-#: ../../en/tei.text.rst:437
+#: ../../en/tei.text.rst:441
 msgid "``list-style-type:square``"
 msgstr ""
 
-#: ../../en/tei.text.rst:438
+#: ../../en/tei.text.rst:442
 msgid "``list-style-type:circle``"
 msgstr ""
 
-#: ../../en/tei.text.rst:440
+#: ../../en/tei.text.rst:444
 msgid "Pour les listes ordonnées :"
 msgstr ""
 
-#: ../../en/tei.text.rst:442
+#: ../../en/tei.text.rst:446
 msgid "``list-style-type:decimal``"
 msgstr ""
 
-#: ../../en/tei.text.rst:443
+#: ../../en/tei.text.rst:447
 msgid "``list-style-type:lower-roman``"
 msgstr ""
 
-#: ../../en/tei.text.rst:444
+#: ../../en/tei.text.rst:448
 msgid "``list-style-type:upper-roman``"
 msgstr ""
 
-#: ../../en/tei.text.rst:445
+#: ../../en/tei.text.rst:449
 msgid "``list-style-type:lower-alpha``"
 msgstr ""
 
-#: ../../en/tei.text.rst:446
+#: ../../en/tei.text.rst:450
 msgid "``list-style-type:upper-alpha``"
 msgstr ""
 
-#: ../../en/tei.text.rst:579
+#: ../../en/tei.text.rst:583
 msgid "Tableaux"
 msgstr ""
 
-#: ../../en/tei.text.rst:583
+#: ../../en/tei.text.rst:587
 msgid "Tableau : ``//table``"
 msgstr ""
 
-#: ../../en/tei.text.rst:584
+#: ../../en/tei.text.rst:588
 msgid "Ligne : ``//row``"
 msgstr ""
 
-#: ../../en/tei.text.rst:585
+#: ../../en/tei.text.rst:589
 msgid "Cellule : ``//cell[@rows and @cols]``"
 msgstr ""
 
-#: ../../en/tei.text.rst:589
+#: ../../en/tei.text.rst:593
 msgid ""
 "les attributs 'rows' et 'cols' des balises ``<cell>`` permettent la fusion de "
 "cellules."
 msgstr ""
 
-#: ../../en/tei.text.rst:654
+#: ../../en/tei.text.rst:658
 msgid "Liens hypertextes"
 msgstr ""
 
-#: ../../en/tei.text.rst:658
+#: ../../en/tei.text.rst:662
 msgid "Liens : ``//ref[@target]``"
 msgstr ""
 
-#: ../../en/tei.text.rst:662
+#: ../../en/tei.text.rst:666
 msgid ""
 "indiquer l'url dans l'attribut target, avec le protocole (http, https, etc.)"
 msgstr ""
 
-#: ../../en/tei.text.rst:683
+#: ../../en/tei.text.rst:687
 msgid "Illustrations"
 msgstr ""
 
-#: ../../en/tei.text.rst:687
+#: ../../en/tei.text.rst:691
 msgid "Titre de l’illustration : ``//p[@rend='figure-title']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:688
+#: ../../en/tei.text.rst:692
 msgid "Illustration : ``//figure[@url]``"
 msgstr ""
 
-#: ../../en/tei.text.rst:689
+#: ../../en/tei.text.rst:693
 msgid "Légende de l’illustration : ``//p[@rend='figure-legend']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:690
+#: ../../en/tei.text.rst:694
 msgid "Crédits de l’illustration : ``//p[@rend='figure-license']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:695
+#: ../../en/tei.text.rst:699
 msgid ""
 "respecter l'ordre des éléments : titre de l'illustration, illustration, "
 "légende, crédits ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:696
+#: ../../en/tei.text.rst:700
 msgid ""
 "créer une archive zip contenant le fichier TEI du document à la racine et les "
 "illustrations qui peuvent être placées dans une arborescence de répertoire ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:697
+#: ../../en/tei.text.rst:701
 msgid ""
 "l'attribut 'url' de la balise ``<figure>`` contient le chemin relatif au "
 "fichier à l'intérieur de l'archive ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:698
+#: ../../en/tei.text.rst:702
 msgid "les formats autorisés pour les illustrations sont : png, jpg, gif, svg ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:720
+#: ../../en/tei.text.rst:724
 msgid "Formules"
 msgstr ""
 
-#: ../../en/tei.text.rst:724
+#: ../../en/tei.text.rst:728
 msgid "Formule : ``//p/formula``"
 msgstr ""
 
-#: ../../en/tei.text.rst:728
+#: ../../en/tei.text.rst:732
 msgid ""
 "inclure les formules à l'intérieur de la balise ``<formula>`` dans un CDATA, le "
 "contenu ne sera pas traité par Lodel."
 msgstr ""
 
-#: ../../en/tei.text.rst:729
+#: ../../en/tei.text.rst:733
 msgid ""
 "Sur certains sites, le navigateur peut interpréter le LaTeX avec MathJax pour "
 "afficher les formules."
 msgstr ""
 
-#: ../../en/tei.text.rst:757
+#: ../../en/tei.text.rst:761
 msgid "Code"
 msgstr ""
 
-#: ../../en/tei.text.rst:762
+#: ../../en/tei.text.rst:766
 msgid "Code : ``//p/code[@lang]``"
 msgstr ""
 
-#: ../../en/tei.text.rst:766
+#: ../../en/tei.text.rst:770
 msgid "préciser le langage de programmation dans l'attribut 'lang' ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:767
+#: ../../en/tei.text.rst:771
 msgid "inclure le code dans un CDATA."
 msgstr ""
 
-#: ../../en/tei.text.rst:800
+#: ../../en/tei.text.rst:804
 msgid "Exemples de linguistique"
 msgstr ""
 
-#: ../../en/tei.text.rst:804
+#: ../../en/tei.text.rst:808
 msgid "Exemple : ``//quote[@type][@n]``"
 msgstr ""
 
-#: ../../en/tei.text.rst:805
+#: ../../en/tei.text.rst:809
 msgid "Lignes : ``//quote[@type][@n]/quote``"
 msgstr ""
 
-#: ../../en/tei.text.rst:806
+#: ../../en/tei.text.rst:810
 msgid "Segments : ``//quote[@type][@n]/quote/seg``"
 msgstr ""
 
-#: ../../en/tei.text.rst:807
+#: ../../en/tei.text.rst:811
 msgid "Référence bibliographique : ``//quote[@type][@n]/bibl``"
 msgstr ""
 
-#: ../../en/tei.text.rst:808
+#: ../../en/tei.text.rst:812
 msgid "Glose : ``//quote[@type][@n]/gloss``"
 msgstr ""
 
-#: ../../en/tei.text.rst:813
+#: ../../en/tei.text.rst:817
 msgid ""
 "possibilité de définir le type d'exemple avec l'attribut 'type' pour la balise "
 "``<quote>`` (type recommandé : \"example\") ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:814
+#: ../../en/tei.text.rst:818
 msgid ""
 "possibilité de numéroter l'exemple avec l'attibut 'n' de la balise ``<quote>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:815
+#: ../../en/tei.text.rst:819
 msgid ""
 "possibilité de définir plusieurs lignes d'exemples avec des éléments "
 "``<quote>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:816
+#: ../../en/tei.text.rst:820
 msgid ""
 "possibilité d'aligner verticalement des segments des lignes de l'exemple avec "
 "des éléments ``<seg>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:817
+#: ../../en/tei.text.rst:821
 msgid ""
 "possibilité de définir une référence bibliographique dans un élément "
 "``<bibl>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:818
+#: ../../en/tei.text.rst:822
 msgid ""
 "possibilité d'associer une glose ou une définition à l'exemple dans un élément "
 "``<gloss>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:819
+#: ../../en/tei.text.rst:823
 msgid "possibilité d'imbriquer des exemples (définition de sous-exemples)."
 msgstr ""
 
-#: ../../en/tei.text.rst:821
+#: ../../en/tei.text.rst:825
 msgid "**Exemple simple**"
 msgstr ""
 
-#: ../../en/tei.text.rst:840
+#: ../../en/tei.text.rst:844
 msgid "*Résultat HTML (rendu)**"
 msgstr ""
 
-#: ../../en/tei.text.rst:853
+#: ../../en/tei.text.rst:857
 msgid "**Exemples imbriqués (sous-exemples)**"
 msgstr ""
 
-#: ../../en/tei.text.rst:944
+#: ../../en/tei.text.rst:948
 msgid "back"
 msgstr ""
 
-#: ../../en/tei.text.rst:946
+#: ../../en/tei.text.rst:950
 msgid ""
 "L'élément ``back`` contient tous les suppléments placés après le corps de "
 "texte : annexes, bibliographies, etc."
 msgstr ""
 
-#: ../../en/tei.text.rst:952
+#: ../../en/tei.text.rst:956
 msgid "Bibliographie"
 msgstr ""
 
-#: ../../en/tei.text.rst:958
+#: ../../en/tei.text.rst:962
 msgid ""
 "Section bibliographie : ``/TEI/text/back/div[@type='bibliography']/listBibl``"
 msgstr ""
 
-#: ../../en/tei.text.rst:959
+#: ../../en/tei.text.rst:963
 msgid ""
 "Référence bibliographique : ``/TEI/text/back/div[@type='bibliography']/listBibl/"
 "bibl``"
 msgstr ""
 
-#: ../../en/tei.text.rst:960
+#: ../../en/tei.text.rst:964
 msgid ""
 "Intertitres : ``/TEI/text/back/div[@type='bibliography']/listBibl/"
 "head[@subtype='leveln']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:964
+#: ../../en/tei.text.rst:968
 msgid ""
 "la section bibliographie est définie avec une balise ``<div "
 "type='bibliography'>`` et commence par une balise par une balise "
 "``<listBibl>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:965
+#: ../../en/tei.text.rst:969
 msgid "``<listBibl>`` ne peut contenir de balises ``<div>`` ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:966
+#: ../../en/tei.text.rst:970
 msgid ""
 "utilisation des balises ``<head>`` pour placer des intertitres, l'attribut "
 "'leveln' peut prendre toutes les valeurs comprises entre 'level1' et 'level6' ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:967
+#: ../../en/tei.text.rst:971
 msgid ""
 "les balises ``<listBibl>`` peuvent être imbiquées en fonction de la "
 "structuration des niveaux de titres dans la bibliographie ;"
 msgstr ""
 
-#: ../../en/tei.text.rst:968
+#: ../../en/tei.text.rst:972
 msgid "les références bibliographiques sont indiquées avec des balises ``<bibl>``"
 msgstr ""
 
-#: ../../en/tei.text.rst:1002
+#: ../../en/tei.text.rst:1006
 msgid "Annexes"
 msgstr ""
 
-#: ../../en/tei.text.rst:1006
+#: ../../en/tei.text.rst:1010
 msgid "Annexes :  ``/TEI/text/back/div[@type='appendix']``"
 msgstr ""
 
-#: ../../en/tei.text.rst:1010
+#: ../../en/tei.text.rst:1014
 msgid "La section annexe est définie avec une balise ``<div type='appendix'>``"
 msgstr ""
 
-#: ../../en/tei.text.rst:1011
+#: ../../en/tei.text.rst:1015
 msgid ""
 "tous les éléments utilisables dans ``<body>`` sont utilisables dans cette "
 "section"
