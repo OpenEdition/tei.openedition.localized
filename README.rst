@@ -13,7 +13,7 @@ How to update translations after source update
 
    # Update the submodule (main documentation repo)
    git submodule update --recursive --remote
-   # Followwing commands are executed from 'docs' directory
+   # Following commands are executed from 'docs' directory
    cd docs
    # Build html
    # make html
