@@ -1,0 +1,865 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OpenEdition
+# This file is distributed under the same license as the OpenEdition TEI
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenEdition TEI\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-04 12:18+0100\n"
+"PO-Revision-Date: 2019-12-04 12:42+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: ../../en/compatibility.tei.rst:8
+msgid "Utilisation des éléments TEI"
+msgstr "Usage of TEI elements"
+
+#: ../../en/compatibility.tei.rst:10
+msgid ""
+"Les tableaux ci-dessous présentent les possibilités d'utilisation des "
+"éléments du schéma OpenEdition pour :"
+msgstr ""
+"The following tables presents the possibilities of using the elements of "
+"the OpenEdition schema for: "
+
+#: ../../en/compatibility.tei.rst:12
+msgid "l'import de documents sur OpenEdition Journals (Import OJ) ;"
+msgstr "the import of documents on OpenEdition Journals (Import OJ);"
+
+#: ../../en/compatibility.tei.rst:13
+msgid "l'import de documents sur OpenEdition Books (Import OB) ;"
+msgstr "the import of documents on OpenEdition Books (Import OB);"
+
+#: ../../en/compatibility.tei.rst:14
+msgid "l'export des documents au format TEI OpenEdition (Export OE)."
+msgstr "documents exported in TEI OpenEdition format (OE Export)."
+
+#: ../../en/compatibility.tei.rst:16
+msgid "L'export TEI est utilisé dans les cas suivants :"
+msgstr ""
+"The documents exported in TEI OpenEdition format are use for the "
+"following purposes"
+
+#: ../../en/compatibility.tei.rst:18
+msgid "Republication sur une autre plateforme"
+msgstr "Re-publication on another platform"
+
+#: ../../en/compatibility.tei.rst:19
+msgid "Text and Data Mining"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:20
+msgid "Archivage pérenne"
+msgstr "Long-term archiving"
+
+#: ../../en/compatibility.tei.rst:22
+msgid "Légende :"
+msgstr "Caption:"
+
+#: ../../en/compatibility.tei.rst:24
+msgid "✓ : l'élément est utilisable"
+msgstr ": element is allowed"
+
+#: ../../en/compatibility.tei.rst:25
+msgid "\\- : l'élément n'est pas utilisable"
+msgstr "\\-: element is not allowed"
+
+#: ../../en/compatibility.tei.rst:26
+msgid ""
+"X.X.X+ : l'élément est utilisable à partir de la version X.X.X du schéma "
+"TEI OpenEdition"
+msgstr ""
+"X.X.X+: element is allowed from the X.X.X version of OpenEdition TEI "
+"schema"
+
+#: ../../en/compatibility.tei.rst:27
+msgid ""
+"X.X.X- : l'élément est utilisable jusqu'à la version X.X.X du schéma TEI "
+"OpenEdition"
+msgstr ""
+"X.X.X-: element is allowed up to the X.X.X version of OpenEdition TEI "
+"schema"
+
+#: ../../en/compatibility.tei.rst:35
+msgid "fileDesc"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:38
+msgid "titleStmt"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:41
+msgid ":xpath:`/TEI/teiHeader/fileDesc/titleStmt/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:45 ../../en/compatibility.tei.rst:81
+#: ../../en/compatibility.tei.rst:110 ../../en/compatibility.tei.rst:145
+#: ../../en/compatibility.tei.rst:168 ../../en/compatibility.tei.rst:201
+#: ../../en/compatibility.tei.rst:231 ../../en/compatibility.tei.rst:255
+#: ../../en/compatibility.tei.rst:274 ../../en/compatibility.tei.rst:320
+#: ../../en/compatibility.tei.rst:363 ../../en/compatibility.tei.rst:458
+msgid "Elément"
+msgstr "Element"
+
+#: ../../en/compatibility.tei.rst:45 ../../en/compatibility.tei.rst:81
+#: ../../en/compatibility.tei.rst:110 ../../en/compatibility.tei.rst:145
+#: ../../en/compatibility.tei.rst:168 ../../en/compatibility.tei.rst:201
+#: ../../en/compatibility.tei.rst:231 ../../en/compatibility.tei.rst:255
+#: ../../en/compatibility.tei.rst:274 ../../en/compatibility.tei.rst:291
+#: ../../en/compatibility.tei.rst:320 ../../en/compatibility.tei.rst:363
+#: ../../en/compatibility.tei.rst:458
+msgid "Import OJ"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:45 ../../en/compatibility.tei.rst:81
+#: ../../en/compatibility.tei.rst:110 ../../en/compatibility.tei.rst:145
+#: ../../en/compatibility.tei.rst:168 ../../en/compatibility.tei.rst:201
+#: ../../en/compatibility.tei.rst:231 ../../en/compatibility.tei.rst:255
+#: ../../en/compatibility.tei.rst:274 ../../en/compatibility.tei.rst:291
+#: ../../en/compatibility.tei.rst:320 ../../en/compatibility.tei.rst:363
+#: ../../en/compatibility.tei.rst:458
+msgid "Import OB"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:45 ../../en/compatibility.tei.rst:81
+#: ../../en/compatibility.tei.rst:110 ../../en/compatibility.tei.rst:145
+#: ../../en/compatibility.tei.rst:168 ../../en/compatibility.tei.rst:201
+#: ../../en/compatibility.tei.rst:231 ../../en/compatibility.tei.rst:255
+#: ../../en/compatibility.tei.rst:274 ../../en/compatibility.tei.rst:291
+#: ../../en/compatibility.tei.rst:320 ../../en/compatibility.tei.rst:363
+#: ../../en/compatibility.tei.rst:458
+msgid "Export OE"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:47
+msgid ":ref:`tei-teiHeader-titres`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:49 ../../en/compatibility.tei.rst:172
+msgid ":xpath:`title[@type='main']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:49 ../../en/compatibility.tei.rst:51
+#: ../../en/compatibility.tei.rst:53 ../../en/compatibility.tei.rst:55
+#: ../../en/compatibility.tei.rst:59 ../../en/compatibility.tei.rst:61
+#: ../../en/compatibility.tei.rst:63 ../../en/compatibility.tei.rst:65
+#: ../../en/compatibility.tei.rst:67 ../../en/compatibility.tei.rst:83
+#: ../../en/compatibility.tei.rst:85 ../../en/compatibility.tei.rst:87
+#: ../../en/compatibility.tei.rst:89 ../../en/compatibility.tei.rst:91
+#: ../../en/compatibility.tei.rst:93 ../../en/compatibility.tei.rst:95
+#: ../../en/compatibility.tei.rst:97 ../../en/compatibility.tei.rst:114
+#: ../../en/compatibility.tei.rst:118 ../../en/compatibility.tei.rst:124
+#: ../../en/compatibility.tei.rst:126 ../../en/compatibility.tei.rst:132
+#: ../../en/compatibility.tei.rst:153 ../../en/compatibility.tei.rst:259
+#: ../../en/compatibility.tei.rst:278 ../../en/compatibility.tei.rst:295
+#: ../../en/compatibility.tei.rst:297 ../../en/compatibility.tei.rst:299
+#: ../../en/compatibility.tei.rst:301 ../../en/compatibility.tei.rst:324
+#: ../../en/compatibility.tei.rst:328 ../../en/compatibility.tei.rst:330
+#: ../../en/compatibility.tei.rst:332 ../../en/compatibility.tei.rst:334
+#: ../../en/compatibility.tei.rst:338 ../../en/compatibility.tei.rst:340
+#: ../../en/compatibility.tei.rst:342 ../../en/compatibility.tei.rst:367
+#: ../../en/compatibility.tei.rst:369 ../../en/compatibility.tei.rst:373
+#: ../../en/compatibility.tei.rst:375 ../../en/compatibility.tei.rst:379
+#: ../../en/compatibility.tei.rst:383 ../../en/compatibility.tei.rst:385
+#: ../../en/compatibility.tei.rst:387 ../../en/compatibility.tei.rst:391
+#: ../../en/compatibility.tei.rst:393 ../../en/compatibility.tei.rst:395
+#: ../../en/compatibility.tei.rst:397 ../../en/compatibility.tei.rst:399
+#: ../../en/compatibility.tei.rst:403 ../../en/compatibility.tei.rst:405
+#: ../../en/compatibility.tei.rst:409 ../../en/compatibility.tei.rst:411
+#: ../../en/compatibility.tei.rst:413 ../../en/compatibility.tei.rst:417
+#: ../../en/compatibility.tei.rst:421 ../../en/compatibility.tei.rst:423
+#: ../../en/compatibility.tei.rst:425 ../../en/compatibility.tei.rst:427
+#: ../../en/compatibility.tei.rst:431 ../../en/compatibility.tei.rst:435
+#: ../../en/compatibility.tei.rst:439 ../../en/compatibility.tei.rst:441
+#: ../../en/compatibility.tei.rst:443 ../../en/compatibility.tei.rst:445
+#: ../../en/compatibility.tei.rst:462 ../../en/compatibility.tei.rst:464
+#: ../../en/compatibility.tei.rst:466 ../../en/compatibility.tei.rst:470
+msgid "✓"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:51 ../../en/compatibility.tei.rst:176
+msgid ":xpath:`title[@type='sub']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:53 ../../en/compatibility.tei.rst:174
+msgid ":xpath:`title[@type='sup']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:55
+msgid ":xpath:`title[@type='alt' and @xml:lang]` [1]_"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:57
+msgid ":ref:`tei-teiHeader-auteurs`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:59 ../../en/compatibility.tei.rst:180
+msgid ":xpath:`author`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:61 ../../en/compatibility.tei.rst:182
+msgid ":xpath:`editor[@role='translator']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:63 ../../en/compatibility.tei.rst:184
+msgid ":xpath:`editor[not(@role)]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:65 ../../en/compatibility.tei.rst:186
+msgid ":xpath:`editor[@role='excavationsdirector']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:65 ../../en/compatibility.tei.rst:67
+msgid "ME archéo [2]_"
+msgstr "EM archeo [2]_"
+
+#: ../../en/compatibility.tei.rst:65 ../../en/compatibility.tei.rst:67
+#: ../../en/compatibility.tei.rst:114 ../../en/compatibility.tei.rst:118
+#: ../../en/compatibility.tei.rst:120 ../../en/compatibility.tei.rst:124
+#: ../../en/compatibility.tei.rst:126 ../../en/compatibility.tei.rst:128
+#: ../../en/compatibility.tei.rst:132 ../../en/compatibility.tei.rst:149
+#: ../../en/compatibility.tei.rst:153 ../../en/compatibility.tei.rst:172
+#: ../../en/compatibility.tei.rst:174 ../../en/compatibility.tei.rst:176
+#: ../../en/compatibility.tei.rst:178 ../../en/compatibility.tei.rst:180
+#: ../../en/compatibility.tei.rst:182 ../../en/compatibility.tei.rst:184
+#: ../../en/compatibility.tei.rst:186 ../../en/compatibility.tei.rst:188
+#: ../../en/compatibility.tei.rst:205 ../../en/compatibility.tei.rst:207
+#: ../../en/compatibility.tei.rst:209 ../../en/compatibility.tei.rst:211
+#: ../../en/compatibility.tei.rst:213 ../../en/compatibility.tei.rst:215
+#: ../../en/compatibility.tei.rst:217 ../../en/compatibility.tei.rst:219
+#: ../../en/compatibility.tei.rst:235 ../../en/compatibility.tei.rst:237
+#: ../../en/compatibility.tei.rst:239 ../../en/compatibility.tei.rst:328
+#: ../../en/compatibility.tei.rst:330 ../../en/compatibility.tei.rst:332
+#: ../../en/compatibility.tei.rst:334 ../../en/compatibility.tei.rst:445
+msgid "\\-"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:67 ../../en/compatibility.tei.rst:188
+msgid ":xpath:`editor[@role='collaborator']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:71
+msgid "author et editor"
+msgstr "author and editor"
+
+#: ../../en/compatibility.tei.rst:74
+msgid ":xpath:`/TEI/teiHeader/fileDesc/titleStmt/author/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:76
+msgid ":xpath:`/TEI/teiHeader/fileDesc/titleStmt/editor/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:83
+msgid ":xpath:`persName/forename`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:85
+msgid ":xpath:`persName/surname`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:87
+msgid ":xpath:`affiliation`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:89
+msgid ":xpath:`orgName`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:91
+msgid ":xpath:`roleName[@type='function']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:93
+msgid ":xpath:`roleName[@type='honorific']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:95
+msgid ":xpath:`email`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:97
+msgid ":xpath:`ref[@type='website']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:102
+msgid "publicationStmt"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:105
+msgid ":xpath:`/TEI/teiHeader/fileDesc/publicationStmt/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:112
+msgid ":ref:`tei-teiHeader-date`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:114
+msgid ":xpath:`date`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:116
+msgid ":ref:`tei-teiHeader-publisher`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:118
+msgid ":xpath:`publisher`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:120
+msgid ":xpath:`distributor`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:120 ../../en/compatibility.tei.rst:128
+#: ../../en/compatibility.tei.rst:172 ../../en/compatibility.tei.rst:174
+#: ../../en/compatibility.tei.rst:176 ../../en/compatibility.tei.rst:178
+#: ../../en/compatibility.tei.rst:180 ../../en/compatibility.tei.rst:182
+#: ../../en/compatibility.tei.rst:184 ../../en/compatibility.tei.rst:186
+#: ../../en/compatibility.tei.rst:188 ../../en/compatibility.tei.rst:205
+#: ../../en/compatibility.tei.rst:207 ../../en/compatibility.tei.rst:209
+#: ../../en/compatibility.tei.rst:211 ../../en/compatibility.tei.rst:213
+#: ../../en/compatibility.tei.rst:215 ../../en/compatibility.tei.rst:217
+#: ../../en/compatibility.tei.rst:219 ../../en/compatibility.tei.rst:235
+#: ../../en/compatibility.tei.rst:237 ../../en/compatibility.tei.rst:239
+#: ../../en/compatibility.tei.rst:348 ../../en/compatibility.tei.rst:350
+msgid "1.6.1+"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:122
+msgid ":ref:`tei-teiHeader-idno`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:124
+msgid ":xpath:`idno[@type='documentnumber']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:126
+msgid ":xpath:`idno[@type='url']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:128
+msgid ":xpath:`idno[@type='doi']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:130
+msgid ":ref:`tei-teiHeader-availability`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:132
+msgid ":xpath:`availability`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:137
+msgid "sourceDesc/biblFull"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:140
+msgid ":xpath:`/TEI/teiHeader/fileDesc/sourceDesc/biblFull/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:147
+msgid ":ref:`tei-teiHeader-biblFull`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:149
+msgid ":xpath:`publicationStmt/tei:date`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:149 ../../en/compatibility.tei.rst:151
+msgid "1.6.1-"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:151
+msgid ":xpath:`publicationStmt/tei:idno[@type='pp']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:153
+msgid ":xpath:`notesStmt/tei:note[@type='bibl']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:157
+msgid "sourceDesc/biblStruct"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:160
+msgid "analytic"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:163
+msgid ":xpath:`/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/analytic/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:170
+msgid ":ref:`tei-teiHeader-biblStruct-analytic`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:178
+msgid ":xpath:`title[@type='alt']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:193
+msgid "monogr"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:196
+msgid ":xpath:`/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/monogr/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:203
+msgid ":ref:`tei-teiHeader-biblStruct-monogr`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:205 ../../en/compatibility.tei.rst:235
+msgid ":xpath:`title[@level]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:207 ../../en/compatibility.tei.rst:237
+msgid ":xpath:`title[@leveland @type]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:209 ../../en/compatibility.tei.rst:239
+msgid ":xpath:`idno[@type]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:211
+msgid ":xpath:`idno[@type and @subtype]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:213
+msgid ":xpath:`imprint/biblScope[@unit='issue']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:215
+msgid ":xpath:`imprint/publisher`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:217
+msgid ":xpath:`imprint/biblScope[@unit='page']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:217 ../../en/compatibility.tei.rst:219
+#: ../../en/compatibility.tei.rst:348 ../../en/compatibility.tei.rst:350
+msgid "1.6.2+"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:219
+msgid ":xpath:`imprint/date[@type='published']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:223
+msgid "series"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:226
+msgid ":xpath:`/TEI/teiHeader/fileDesc/sourceDesc/biblStruct/series/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:233
+msgid ":ref:`tei-teiHeader-biblStruct-series`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:244
+msgid "encodingDesc"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:247
+msgid "tagsDecl"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:250
+msgid ":xpath:`/TEI/teiHeader/encodingDesc/tagsDecl/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:257 ../../en/compatibility.tei.rst:377
+msgid ":ref:`tei-teibody-mises-en-forme`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:259
+msgid ":xpath:`rendition[@xml:id and @scheme=\"css\"]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:264
+msgid "profileDesc"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:267
+msgid ":xpath:`/TEI/teiHeader/profileDesc/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:271
+msgid "langUsage/language"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:276
+msgid ":ref:`tei-teiHeader-langue`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:278
+msgid ":xpath:`langUsage/language`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:283
+msgid "textClass/keywords"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:287
+msgid ":xpath:`/TEI/teiHeader/profileDesc/textClass/keywords/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:291
+msgid "Élément"
+msgstr "Element"
+
+#: ../../en/compatibility.tei.rst:293
+msgid ":ref:`tei-teiHeader-index`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:295
+msgid ":xpath:`[@scheme='keyword' and xml:lang]` [1]_"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:297
+msgid ":xpath:`[@scheme='geographical']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:299
+msgid ":xpath:`[@scheme='chronological']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:301
+msgid ":xpath:`[@scheme='subject']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:303
+msgid ":xpath:`[@scheme='personcited']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:303
+msgid "certains ME [3]_"
+msgstr "some EM [3]_"
+
+#: ../../en/compatibility.tei.rst:303
+msgid "\\- TODO"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:309
+msgid "text"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:312
+msgid "front"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:315
+msgid ":xpath:`/TEI/text/front/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:322
+msgid ":ref:`tei-teifront-resume`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:324
+msgid ":xpath:`div[@type='abstract' and @xml:lang]` [1]_"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:326
+msgid ":ref:`tei-teifront-oeuvres`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:328
+msgid ":xpath:`div[@type='review']/p[@rend='review-title']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:330
+msgid ":xpath:`div[@type='review']/p[@rend='review-author']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:332
+msgid ":xpath:`div[@type='review']/p[@rend='review-bibliography']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:334
+msgid ":xpath:`div[@type='review']/p[@rend='review-date']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:336
+msgid ":ref:`tei-teifront-notes`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:338
+msgid ":xpath:`div[@type='correction']/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:340
+msgid ":xpath:`div[@type='dedication']/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:342
+msgid ":xpath:`div[@type='ack']/tei:p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:344
+msgid ":xpath:`note[@resp='author']/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:344 ../../en/compatibility.tei.rst:346
+msgid "1.5.2-"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:346
+msgid ":xpath:`note[@resp='editor']/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:348
+msgid ":xpath:`note[@type='author']/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:350
+msgid ":xpath:`note[@type='publisher']/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:355
+msgid "body"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:358
+msgid ":xpath:`/TEI/text/body/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:365
+msgid ":ref:`tei-teibody-intertitres`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:367
+msgid ":xpath:`div`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:369
+msgid ":xpath:`head[@subtype='leveln']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:371
+msgid ":ref:`tei-teibody-notes`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:373
+msgid ":xpath:`note[@place='foot' and @n]/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:375
+msgid ":xpath:`note[@place='end' and @n]/p`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:379
+msgid ":xpath:`hi[@rend]` [4]_"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:381
+msgid ":ref:`tei-teibody-citations`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:383
+msgid ":xpath:`q[@rend='quotation']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:385
+msgid ":xpath:`q[@rend='quotation2']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:387
+msgid ":xpath:`q[@rend='quotation3']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:389
+msgid ":ref:`tei-teibody-paragraphes`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:391
+msgid ":xpath:`p[@rend='answer']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:393
+msgid ":xpath:`p[@rend='noindent']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:395
+msgid ":xpath:`p[@rend='box']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:397
+msgid ":xpath:`p[@rend='epigraph']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:399
+msgid ":xpath:`p[@rend='break']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:401
+msgid ":ref:`tei-teibody-listes`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:403
+msgid ":xpath:`list[@type='unordered']/item`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:405
+msgid ":xpath:`list[@type='ordered']/item`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:407
+msgid ":ref:`tei-teibody-tableaux`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:409
+msgid ":xpath:`table`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:411
+msgid ":xpath:`row`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:413
+msgid ":xpath:`cell[@rows and @cols]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:415
+msgid ":ref:`tei-teibody-liens`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:417
+msgid ":xpath:`ref[@target]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:419
+msgid ":ref:`tei-teibody-illustrations`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:421
+msgid ":xpath:`figure[@url]?????????????`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:423
+msgid ":xpath:`p[@rend='figure-title']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:425
+msgid ":xpath:`p[@rend='figure-legend']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:427
+msgid ":xpath:`p[@rend='figure-license']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:429
+msgid ":ref:`tei-teibody-formule`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:431
+msgid ":xpath:`formula[@notation='latex']` [5]_"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:433
+msgid ":ref:`tei-teibody-code`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:435
+msgid ":xpath:`code[@lang]`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:437
+msgid ":ref:`tei-teibody-linguistique`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:439
+msgid ":xpath:`quote[@type and @n]/quote`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:441
+msgid ":xpath:`quote[@type and @n]/seg`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:443
+msgid ":xpath:`quote[@type and @n]/bibl`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:445
+msgid ":xpath:`quote[@type and @n]/gloss`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:450
+msgid "back"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:453
+msgid ":xpath:`/TEI/text/back/`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:460
+msgid ":ref:`tei-teiback-biblio`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:462
+msgid ":xpath:`div[@type='bibliography']/listBibl`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:464
+msgid ":xpath:`div[@type='bibliography']/listBibl/bibl`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:466
+msgid ":xpath:`div[@type='bibliography']/listBibl/head[@subtype='leveln']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:468
+msgid ":ref:`tei-teiback-annexes`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:470
+msgid ":xpath:`div[@type='appendix']`"
+msgstr ""
+
+#: ../../en/compatibility.tei.rst:474
+msgid "la valeur de l'attribut ``xml:lang`` doit être au format ISO 639-1"
+msgstr "the attribute ``xml:lang`` must be given in ISO 639-1 format"
+
+#: ../../en/compatibility.tei.rst:475
+msgid ""
+"Certaines revues d'archéologie ont une modèle éditorial \"archéo\" "
+"proposant des éléments supplémentaires par rapport au modèle éditorial "
+"générique."
+msgstr ""
+"Some archaeological journals have an \"archeo\" editorial model that "
+"provides additional elements to the generic editorial model."
+
+#: ../../en/compatibility.tei.rst:476
+msgid ""
+"Certaines revues ou éditeurs bénéficient d'un modèle éditorial contenant "
+"des éléments supplémentaires par rapport au modèle éditorial générique."
+msgstr ""
+"Some journals or publishers use an editorial model that contains "
+"additional elements in addition to the generic editorial model."
+
+#: ../../en/compatibility.tei.rst:477
+msgid ""
+"valeurs autorisées pour l'attribut 'rend' de l'élément ``<hi>`` : "
+"``italic``, ``bold``, ``sup``, ``sub``, ``uppercase``, ``small-caps``, "
+"``underline``"
+msgstr ""
+"allowed values for the attribute 'rend' of the element ``<hi>``: "
+"``italic``, ``bold``, ``sup``, ``sub``, ``uppercase``, ``small-caps``, "
+"``underline``"
+
+#: ../../en/compatibility.tei.rst:478
+msgid ""
+"Certains sites utilisent MathJax pour interpréter les formules LaTeX "
+"dans le navigateur."
+msgstr "Some sites use MathJax to display LaTeX formulas in the browser."

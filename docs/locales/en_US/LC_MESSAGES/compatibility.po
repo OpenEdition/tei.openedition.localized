@@ -4,56 +4,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenEdition TEI \n"
+"Project-Id-Version: OpenEdition TEI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 16:08+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-04 11:28+0100\n"
+"PO-Revision-Date: 2019-12-04 11:33+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.11\n"
 
-#: ../../en/compatibility.rst:2
-msgid "Compatibilité (Modèle éditorial, OTX)"
-msgstr ""
-
-#: ../../en/compatibility.rst:11
-msgid ""
-"TODO Intro expliquant lien entre TEI et modèle éditorial et entre TEI et "
-"OTX"
-msgstr ""
-
-#: ../../en/compatibility.rst:18
-msgid "Modèle éditorial"
-msgstr ""
-
-#: ../../en/compatibility.rst:22
-msgid ""
-"Cette version du schéma TEI OpenEdition est compatible avec les modèles "
-"éditoriaux suivants :"
-msgstr ""
-
-#: ../../en/compatibility.rst:24
-msgid "OEJ.1.X.X"
-msgstr ""
-
-#: ../../en/compatibility.rst:25
-msgid "OEB.1.X.X"
-msgstr ""
-
-#: ../../en/compatibility.rst:31
-msgid "OTX"
-msgstr ""
-
-#: ../../en/compatibility.rst:35
-msgid ""
-"Cette version du schéma TEI OpenEdition est compatible avec la branche "
-"master du `projet Github OpenEdition OTX "
-"<https://github.com/OpenEdition/OTX>`_"
-msgstr ""
-
+#: ../../en/compatibility.rst:4
+msgid "Compatibilité"
+msgstr "Compatibility"
