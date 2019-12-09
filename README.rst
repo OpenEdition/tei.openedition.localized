@@ -13,6 +13,7 @@ How to update translations after source update
 
    # Update the submodule (main documentation repo)
    git submodule update --recursive --remote
+   # when a source rst file is added, modified or deleted, update symbolic links in docs/en
    # Following commands are executed from 'docs' directory
    cd docs
    # Build html
