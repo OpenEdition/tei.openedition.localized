@@ -8,78 +8,105 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition TEI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-09 15:09+0100\n"
+"POT-Creation-Date: 2019-12-13 16:14+0100\n"
 "PO-Revision-Date: 2019-12-09 15:28+0100\n"
 "Last-Translator: \n"
+"Language: en_US\n"
 "Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
-"Language: en_US\n"
-"X-Generator: Poedit 1.8.11\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../en/index.rst:22
+msgid "TEI"
+msgstr ""
+
+#: ../../en/index.rst:33
+msgid "À propos"
+msgstr ""
 
 #: ../../en/index.rst:2
 msgid "Documentation TEI OpenEdition"
 msgstr "OpenEdition TEI Guidelines"
 
-#: ../../en/index.rst:6
-msgid ""
-"Cette documentation présente les spécifications du format TEI "
-"OpenEdition :"
-msgstr ""
-"This documentation describes the specifications of the OpenEdition TEI "
-"format:"
-
 #: ../../en/index.rst:8
+#, fuzzy
 msgid ""
-"Les éléments TEI gérés par OpenEdition et leur usage sont décrits dans "
-"la partie : :ref:`tei`"
+"Cette documentation suit l'évolution des versions du `schéma TEI "
+"OpenEdition <https://github.com/openEdition/tei.openedition>`_, une "
+"nouvelle version de la documentation est disponible en `français <https"
+"://tei-openedition.readthedocs.io/fr/latest/>`_ et `anglais <https://tei-"
+"openedition.readthedocs.io/en/latest/>`_ pour chaque release."
+msgstr ""
+"These guidelines are available in `French <https://tei-"
+"openedition.readthedocs.io/fr/latest/>`_ and `English <https://tei-"
+"openedition.readthedocs.io/en/latest/>`_."
+
+#: ../../en/index.rst:10
+msgid ""
+"Cliquez sur **ReadTheDocs** en bas du menu de gauche pour choisir la "
+"langue et la version."
+msgstr ""
+
+#: ../../en/index.rst:14
+msgid ""
+"Les éléments TEI gérés par OpenEdition et leur usage sont décrits dans la"
+" partie : :ref:`tei`"
 msgstr ""
 "The TEI elements handled by OpenEdition and their use are described in "
 "the section: :ref:`tei`"
 
-#: ../../en/index.rst:9
+#: ../../en/index.rst:16
 msgid ""
-"Le support des éléments selon le contexte (Import OpenEdition Journals "
-"ou Books, Export TEI OpenEdition) et la version du schéma TEI est "
-"précisé dans la partie : :ref:`tei-application`"
+"Le support des éléments selon le contexte (Import OpenEdition Journals ou"
+" Books, Export TEI OpenEdition) et la version du schéma TEI est précisé "
+"dans la partie : :ref:`tei-application`"
 msgstr ""
 "The support of the elements according to the context (OpenEdition "
 "Journals or Books Import, OpenEdition TEI Export) and the version of the "
 "TEI schema is specified in the part: :ref:`tei-application`"
 
-#: ../../en/index.rst:10
+#: ../../en/index.rst:18
 msgid ""
-"La compatibilité entre les versions du schéma TEI, les modèles "
-"éditoriaux et OTX (pour les usages hors plateforme OpenEdition) est "
-"décrite dans la partie :  :ref:`compatibility-lodel`"
+"La compatibilité entre les versions du schéma TEI, les modèles éditoriaux"
+" et OTX (pour les usages hors plateforme OpenEdition) est décrite dans la"
+" partie :  :ref:`compatibility-lodel`"
 msgstr ""
 "Compatibility between versions of the TEI schema, editorial models and "
 "OTX (for uses out of the OpenEdition platform) is described in the "
 "section: :ref:`compatibility-lodel`"
 
-#: ../../en/index.rst:12
-msgid ""
-"Cette documentation est disponible en `français <https://tei-openedition."
-"readthedocs.io/fr/latest/>`_ et `anglais <https://tei-openedition."
-"readthedocs.io/en/latest/>`_."
+#: ../../en/index.rst:20
+msgid "La page :ref:`changelog` précise les évolutions des versions du schéma TEI"
 msgstr ""
-"These guidelines are available in `French <https://tei-openedition."
-"readthedocs.io/fr/latest/>`_ and `English <https://tei-openedition."
-"readthedocs.io/en/latest/>`_."
-
-#: ../../en/index.rst:14
-msgid ""
-"Vous pouvez retrouver la documentation correspondant aux versions "
-"antérieures du schéma TEI en cliquant sur **ReadTheDocs** en bas du menu "
-"de gauche."
-msgstr ""
-"You can find the documentation related to the previous versions of the "
-"TEI schema by clicking on **ReadTheDocs** of the menu on the left."
 
 #~ msgid "TEI"
 #~ msgstr "TEI"
 
 #~ msgid "À propos"
 #~ msgstr "About"
+
+#~ msgid ""
+#~ "Cette documentation présente les "
+#~ "spécifications du format TEI OpenEdition "
+#~ ":"
+#~ msgstr ""
+#~ "This documentation describes the "
+#~ "specifications of the OpenEdition TEI "
+#~ "format:"
+
+#~ msgid ""
+#~ "Vous pouvez retrouver la documentation "
+#~ "correspondant aux versions antérieures du "
+#~ "schéma TEI en cliquant sur "
+#~ "**ReadTheDocs** en bas du menu de "
+#~ "gauche."
+#~ msgstr ""
+#~ "You can find the documentation related"
+#~ " to the previous versions of the "
+#~ "TEI schema by clicking on "
+#~ "**ReadTheDocs** of the menu on the "
+#~ "left."
+
