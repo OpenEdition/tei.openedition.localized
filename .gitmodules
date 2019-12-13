@@ -1,4 +1,4 @@
 [submodule "tei.openedition"]
-	branch = docsphinx
+	branch = master
 	path = tei.openedition
 	url = https://github.com/openedition/tei.openedition.git
