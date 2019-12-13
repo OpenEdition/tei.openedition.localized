@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OpenEdition TEI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-13 16:14+0100\n"
-"PO-Revision-Date: 2019-12-13 16:48+0100\n"
+"PO-Revision-Date: 2019-12-13 17:19+0100\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: ../../en/compatibility.rst:6
 msgid "Compatibilité"
@@ -30,7 +30,7 @@ msgstr "Table of content"
 
 #: ../../en/compatibility.rst:18
 msgid "Environnement Lodel et schéma TEI [*]_"
-msgstr "Lodel and TEI schema [*]_"
+msgstr "Lodel and TEI schema"
 
 #: ../../en/compatibility.rst:20
 msgid ""
