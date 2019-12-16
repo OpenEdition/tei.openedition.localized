@@ -4,6 +4,17 @@ TEI OpenEdition - localized documentation
 This repository contains localized documentation for OpenEdition TEI documentation. It
 is based on master document placed in phpmyadmin repository.
 
+How to initialize
+=========================================================
+
+After 1st git clone, submodule nedd to be initialized 
+
+.. code-block:: sh
+
+   git submodule init
+   git submodule update
+
+
 How to update translations after source update
 =========================================================
 

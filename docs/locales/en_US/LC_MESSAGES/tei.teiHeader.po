@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition TEI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-13 16:14+0100\n"
-"PO-Revision-Date: 2019-12-13 16:40+0100\n"
+"POT-Creation-Date: 2019-12-16 10:24+0100\n"
+"PO-Revision-Date: 2019-12-16 10:33+0100\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -67,9 +67,9 @@ msgstr "titles, subtitles, overtitles, translated titles"
 #: ../../en/tei.teiHeader.rst:34 ../../en/tei.teiHeader.rst:71
 #: ../../en/tei.teiHeader.rst:180 ../../en/tei.teiHeader.rst:202
 #: ../../en/tei.teiHeader.rst:228 ../../en/tei.teiHeader.rst:259
-#: ../../en/tei.teiHeader.rst:306 ../../en/tei.teiHeader.rst:357
-#: ../../en/tei.teiHeader.rst:380 ../../en/tei.teiHeader.rst:450
-#: ../../en/tei.teiHeader.rst:569 ../../en/tei.teiHeader.rst:639
+#: ../../en/tei.teiHeader.rst:325 ../../en/tei.teiHeader.rst:348
+#: ../../en/tei.teiHeader.rst:418 ../../en/tei.teiHeader.rst:554
+#: ../../en/tei.teiHeader.rst:624
 msgid "**XPath**"
 msgstr "**XPath**"
 
@@ -96,9 +96,9 @@ msgstr ""
 #: ../../en/tei.teiHeader.rst:42 ../../en/tei.teiHeader.rst:108
 #: ../../en/tei.teiHeader.rst:185 ../../en/tei.teiHeader.rst:208
 #: ../../en/tei.teiHeader.rst:235 ../../en/tei.teiHeader.rst:263
-#: ../../en/tei.teiHeader.rst:312 ../../en/tei.teiHeader.rst:371
-#: ../../en/tei.teiHeader.rst:433 ../../en/tei.teiHeader.rst:463
-#: ../../en/tei.teiHeader.rst:576 ../../en/tei.teiHeader.rst:643
+#: ../../en/tei.teiHeader.rst:339 ../../en/tei.teiHeader.rst:401
+#: ../../en/tei.teiHeader.rst:431 ../../en/tei.teiHeader.rst:561
+#: ../../en/tei.teiHeader.rst:628
 msgid "**Recommandations d'usage**"
 msgstr "**Usage**"
 
@@ -120,8 +120,8 @@ msgstr ""
 
 #: ../../en/tei.teiHeader.rst:49 ../../en/tei.teiHeader.rst:127
 #: ../../en/tei.teiHeader.rst:212 ../../en/tei.teiHeader.rst:240
-#: ../../en/tei.teiHeader.rst:267 ../../en/tei.teiHeader.rst:319
-#: ../../en/tei.teiHeader.rst:593 ../../en/tei.teiHeader.rst:647
+#: ../../en/tei.teiHeader.rst:267 ../../en/tei.teiHeader.rst:578
+#: ../../en/tei.teiHeader.rst:632
 msgid "**Exemple**"
 msgstr "**Example**"
 
@@ -254,7 +254,7 @@ msgstr ""
 "possibility to add descriptions for each contributor, the general description is "
 "indicated in the tag ``<affiliation>`` ;"
 
-#: ../../en/tei.teiHeader.rst:112 ../../en/tei.teiHeader.rst:586
+#: ../../en/tei.teiHeader.rst:112 ../../en/tei.teiHeader.rst:571
 msgid "attention à la casse et à l'orthographe pour éviter les doublons dans les index."
 msgstr "pay attention to the case and spelling to avoid duplicates in indexes."
 
@@ -418,86 +418,39 @@ msgstr ""
 "The \"biblFull\" element is deprecated from version 1.6.2 of the TEI OpenEdition XML "
 "schema"
 
-#: ../../en/tei.teiHeader.rst:308
-msgid ""
-"Date de publication papier : ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/"
-"publicationStmt/date``"
-msgstr ""
-"Print publication date: ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/"
-"date``"
-
-#: ../../en/tei.teiHeader.rst:309
-msgid ""
-"Pagination : ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/"
-"idno[@type='pp']``"
-msgstr ""
-"Pagination: ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/"
-"idno[@type='pp']``"
-
 #: ../../en/tei.teiHeader.rst:310
-msgid ""
-"Notice bibliographique du document : ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/"
-"notesStmt/note[@type='bibl']``"
-msgstr ""
-"Bibliographical reference of the document’s printed edition: ``/TEI/teiHeader/fileDesc/"
-"sourceDesc/biblFull/notesStmt/note[@type='bibl']``"
-
-#: ../../en/tei.teiHeader.rst:314 ../../en/tei.teiHeader.rst:441
-msgid ""
-"Date de publication papier : date au format JJ/MM/AAAA ; ne pas utiliser cette date "
-"pour OpenEdition Books ;"
-msgstr ""
-"Print publication date: date in format DD/MM/YYYYY; do not use this date for "
-"OpenEdition Books;"
-
-#: ../../en/tei.teiHeader.rst:315 ../../en/tei.teiHeader.rst:442
-msgid ""
-"Pagination :  renseignée en chiffres romains (V-XXV) ou en chiffres arabes (5-25), "
-"sans les mentions p. ou pp. ;"
-msgstr ""
-"Pagination: filled in Roman numbers (V-XXV) or Arabic numbers (5-25), without the "
-"mentions p. or pp.;"
-
-#: ../../en/tei.teiHeader.rst:316 ../../en/tei.teiHeader.rst:443
-msgid ""
-"Notice biblio : utilisée pour préciser la notice bibliographique du document papier."
-msgstr ""
-"Bibliographical reference: used to specify the bibliographical reference of the "
-"document’s printed edition."
-
-#: ../../en/tei.teiHeader.rst:342
 msgid "biblStruct"
 msgstr "biblStruct"
 
-#: ../../en/tei.teiHeader.rst:346
+#: ../../en/tei.teiHeader.rst:314
 msgid "L'élément ``biblStruct`` est supporté :"
 msgstr "The \"biblStruct\" element is supported:"
 
-#: ../../en/tei.teiHeader.rst:348
+#: ../../en/tei.teiHeader.rst:316
 msgid "import OEJ et OEB : à partir de la version 1.6.2 du schéma XML TEI OpenEdition ;"
 msgstr "OEJ and OEB import: from the 1.6.2 version of the OpenEdition XML TEI schema;"
 
-#: ../../en/tei.teiHeader.rst:349
+#: ../../en/tei.teiHeader.rst:317
 msgid "export OE : à partir de la version 1.6.0 du schéma XML TEI OpenEdition."
 msgstr "OE export: from the 1.6.0 version of the OpenEdition XML TEI schema"
 
-#: ../../en/tei.teiHeader.rst:355
+#: ../../en/tei.teiHeader.rst:323
 msgid "biblStruct/analytic"
 msgstr "biblStruct/analytic"
 
-#: ../../en/tei.teiHeader.rst:359
+#: ../../en/tei.teiHeader.rst:327
 msgid "Titre : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='main']``"
 msgstr "Title: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='main']``"
 
-#: ../../en/tei.teiHeader.rst:360
+#: ../../en/tei.teiHeader.rst:328
 msgid "Sous-titre : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='sub']``"
 msgstr "Subtitle: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='sub']``"
 
-#: ../../en/tei.teiHeader.rst:361
+#: ../../en/tei.teiHeader.rst:329
 msgid "Surtitre : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='sup']``"
 msgstr "Overtitle: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='sup']``"
 
-#: ../../en/tei.teiHeader.rst:362
+#: ../../en/tei.teiHeader.rst:330
 msgid ""
 "Titres traduits : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='alt' "
 "and @xml:lang]``"
@@ -505,11 +458,11 @@ msgstr ""
 "Translated titles: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/title[@type='alt' "
 "and @xml:lang]``"
 
-#: ../../en/tei.teiHeader.rst:363
+#: ../../en/tei.teiHeader.rst:331
 msgid "Auteur : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/author/``"
 msgstr "Author: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/author/``"
 
-#: ../../en/tei.teiHeader.rst:364
+#: ../../en/tei.teiHeader.rst:332
 msgid ""
 "Traducteur : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/"
 "editor[@role='translator']``"
@@ -517,14 +470,14 @@ msgstr ""
 "Translator: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/"
 "editor[@role='translator']``"
 
-#: ../../en/tei.teiHeader.rst:365
+#: ../../en/tei.teiHeader.rst:333
 msgid ""
 "Éditeur scientifique : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/"
 "editor[not(@role)]``"
 msgstr ""
 "Scientific editor: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/editor[not(@role)]``"
 
-#: ../../en/tei.teiHeader.rst:366
+#: ../../en/tei.teiHeader.rst:334
 msgid ""
 "Directeur de fouilles : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/"
 "editor[@role='excavationsdirector']``"
@@ -532,7 +485,7 @@ msgstr ""
 "Excavation director: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/"
 "editor[@role='excavationsdirector']``"
 
-#: ../../en/tei.teiHeader.rst:367
+#: ../../en/tei.teiHeader.rst:335
 msgid ""
 "Collaborateur : ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/"
 "editor[@role='collaborator']``"
@@ -540,7 +493,7 @@ msgstr ""
 "Collaborator: ``/TEI/teiHeader/sourceDesc/biblStruct/analytic/"
 "editor[@role='collaborator']``"
 
-#: ../../en/tei.teiHeader.rst:373
+#: ../../en/tei.teiHeader.rst:341
 msgid ""
 "Utilisé uniquement à l'export TEI OE, l'élément ``analytic`` contient les titres et "
 "les contributeurs du document TEI."
@@ -548,192 +501,192 @@ msgstr ""
 "Only used in the OpenEdition's output TEI, the ``analytic`` element contains the "
 "titles and contributors of the TEI document."
 
-#: ../../en/tei.teiHeader.rst:378
+#: ../../en/tei.teiHeader.rst:346
 msgid "biblStruct/monogr"
 msgstr "biblStruct/monogr"
 
-#: ../../en/tei.teiHeader.rst:382
+#: ../../en/tei.teiHeader.rst:350
 msgid "Titres"
 msgstr "Titles"
 
-#: ../../en/tei.teiHeader.rst:384
+#: ../../en/tei.teiHeader.rst:352
 msgid "Titre de la revue (revue) :"
 msgstr "Journal Title (Journal):"
 
-#: ../../en/tei.teiHeader.rst:385
+#: ../../en/tei.teiHeader.rst:353
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='j']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='j']``"
 
-#: ../../en/tei.teiHeader.rst:386
+#: ../../en/tei.teiHeader.rst:354
 msgid "Titre de la rubrique pour les articles publiés hors numéro (revue) :"
 msgstr "Title of the section for articles published out of issue (journal):"
 
-#: ../../en/tei.teiHeader.rst:387
+#: ../../en/tei.teiHeader.rst:355
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='s']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='s']``"
 
-#: ../../en/tei.teiHeader.rst:388
+#: ../../en/tei.teiHeader.rst:356
 msgid "Titre traduit de la rubrique pour les articles publiés hors numéro (revue) :"
 msgstr "Translated titles of the section for articles published out of issue (journal):"
 
-#: ../../en/tei.teiHeader.rst:389
+#: ../../en/tei.teiHeader.rst:357
 msgid "``TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='s' and @type='alt']``"
 msgstr "``TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='s' and @type='alt']``"
 
-#: ../../en/tei.teiHeader.rst:390
+#: ../../en/tei.teiHeader.rst:358
 msgid "Titre du livre ou du numéro (livre et revue) :"
 msgstr "Title of the book or issue (Book and Journal):"
 
-#: ../../en/tei.teiHeader.rst:391
+#: ../../en/tei.teiHeader.rst:359
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='m']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='m']``"
 
-#: ../../en/tei.teiHeader.rst:392
+#: ../../en/tei.teiHeader.rst:360
 msgid "Titre traduit du livre ou du numéro (livre et revue) :"
 msgstr "Translated title of the book or issue (Book and Journal):"
 
-#: ../../en/tei.teiHeader.rst:393
+#: ../../en/tei.teiHeader.rst:361
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='m' and @type='alt']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/title[@level='m' and @type='alt']``"
 
-#: ../../en/tei.teiHeader.rst:395
+#: ../../en/tei.teiHeader.rst:363
 msgid "Identifiants (revue)"
 msgstr "Identifiers (Journal)"
 
-#: ../../en/tei.teiHeader.rst:397
+#: ../../en/tei.teiHeader.rst:365
 msgid "ISSN électronique :"
 msgstr "Electronic ISSN:"
 
-#: ../../en/tei.teiHeader.rst:398
+#: ../../en/tei.teiHeader.rst:366
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='eISSN']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='eISSN']``"
 
-#: ../../en/tei.teiHeader.rst:399
+#: ../../en/tei.teiHeader.rst:367
 msgid "ISSN édition papier :"
 msgstr "Print ISSN:"
 
-#: ../../en/tei.teiHeader.rst:400
+#: ../../en/tei.teiHeader.rst:368
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='pISSN']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='pISSN']``"
 
-#: ../../en/tei.teiHeader.rst:401
+#: ../../en/tei.teiHeader.rst:369
 msgid "URL du numéro :"
 msgstr "Issue URL:"
 
-#: ../../en/tei.teiHeader.rst:402
+#: ../../en/tei.teiHeader.rst:370
 msgid ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='url' and @subtype='issue']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='url' and @subtype='issue']``"
 
-#: ../../en/tei.teiHeader.rst:403
+#: ../../en/tei.teiHeader.rst:371
 msgid "DOI du numéro :"
 msgstr "Issue DOI:"
 
-#: ../../en/tei.teiHeader.rst:404
+#: ../../en/tei.teiHeader.rst:372
 msgid ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='doi' and @subtype='issue']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='doi' and @subtype='issue']``"
 
-#: ../../en/tei.teiHeader.rst:405
+#: ../../en/tei.teiHeader.rst:373
 msgid "URL de la rubrique :"
 msgstr "Section URL"
 
-#: ../../en/tei.teiHeader.rst:406
+#: ../../en/tei.teiHeader.rst:374
 msgid ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='url' and @subtype='serie']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='url' and @subtype='serie']``"
 
-#: ../../en/tei.teiHeader.rst:407
+#: ../../en/tei.teiHeader.rst:375
 msgid "DOI de la rubrique :"
 msgstr "Section DOI:"
 
-#: ../../en/tei.teiHeader.rst:408
+#: ../../en/tei.teiHeader.rst:376
 msgid ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='doi' and @subtype='serie']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='doi' and @subtype='serie']``"
 
-#: ../../en/tei.teiHeader.rst:410
+#: ../../en/tei.teiHeader.rst:378
 msgid "Identifiants (livre)"
 msgstr "Identifiers (Book)"
 
-#: ../../en/tei.teiHeader.rst:412
+#: ../../en/tei.teiHeader.rst:380
 msgid "ISBN électronique :"
 msgstr "Electronic ISBN:"
 
-#: ../../en/tei.teiHeader.rst:413
+#: ../../en/tei.teiHeader.rst:381
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='eISBN']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='eISBN']``"
 
-#: ../../en/tei.teiHeader.rst:414
+#: ../../en/tei.teiHeader.rst:382
 msgid "ISBN édition papier :"
 msgstr "Print ISBN:"
 
-#: ../../en/tei.teiHeader.rst:415
+#: ../../en/tei.teiHeader.rst:383
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='pISBN']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='pISBN']``"
 
-#: ../../en/tei.teiHeader.rst:416
+#: ../../en/tei.teiHeader.rst:384
 msgid "URL du livre :"
 msgstr "Book URL:"
 
-#: ../../en/tei.teiHeader.rst:417
+#: ../../en/tei.teiHeader.rst:385
 msgid ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='url' and @subtype='book']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='url' and @subtype='book']``"
 
-#: ../../en/tei.teiHeader.rst:418
+#: ../../en/tei.teiHeader.rst:386
 msgid "DOI du livre :"
 msgstr "Book DOI:"
 
-#: ../../en/tei.teiHeader.rst:419
+#: ../../en/tei.teiHeader.rst:387
 msgid ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='doi' and @subtype='book']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/idno[@type='doi' and @subtype='book']``"
 
-#: ../../en/tei.teiHeader.rst:421
+#: ../../en/tei.teiHeader.rst:389
 msgid "Informations sur l'édition papier"
 msgstr "Information on the print edition"
 
-#: ../../en/tei.teiHeader.rst:423
+#: ../../en/tei.teiHeader.rst:391
 msgid "Pagination de l'édition papier (livre et revue):"
 msgstr "Pagination of the print edition (Book and Journal):"
 
-#: ../../en/tei.teiHeader.rst:424
+#: ../../en/tei.teiHeader.rst:392
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='page']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='page']``"
 
-#: ../../en/tei.teiHeader.rst:425
+#: ../../en/tei.teiHeader.rst:393
 msgid "Numéro (revue) :"
 msgstr "Issue (Journal):"
 
-#: ../../en/tei.teiHeader.rst:426
+#: ../../en/tei.teiHeader.rst:394
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='issue']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/biblScope[@unit='issue']``"
 
-#: ../../en/tei.teiHeader.rst:427
+#: ../../en/tei.teiHeader.rst:395
 msgid "Date de publication papier (livre et revue):"
 msgstr "Date of print publication (Book and Journal):"
 
-#: ../../en/tei.teiHeader.rst:428
+#: ../../en/tei.teiHeader.rst:396
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/date[@type='published']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/date[@type='published']``"
 
-#: ../../en/tei.teiHeader.rst:429
+#: ../../en/tei.teiHeader.rst:397
 msgid "Éditeur (livre et revue):"
 msgstr "Publisher (Book and Journal)"
 
-#: ../../en/tei.teiHeader.rst:430
+#: ../../en/tei.teiHeader.rst:398
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/publisher``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/monogr/imprint/publisher``"
 
-#: ../../en/tei.teiHeader.rst:435
+#: ../../en/tei.teiHeader.rst:403
 msgid ""
 "dans l'export TEI OE, l'élément ``monogr`` contient les métadonnées relatives à "
 "l'environnement de publication du document TEI (livre, numéro, rubrique, revue) ;"
@@ -741,7 +694,7 @@ msgstr ""
 "In OpenEdition TEI export, the \"monogr\" element contains the metadata related to the "
 "publication environment of the TEI document (book, issue, section, review);"
 
-#: ../../en/tei.teiHeader.rst:436
+#: ../../en/tei.teiHeader.rst:404
 msgid ""
 "pour l'import d'articles sur OpenEdition Journals (import OJ) ou de chapitres des "
 "livres sur OpenEdition Books (import OB), les éléments suivants sont utilisables :"
@@ -749,11 +702,11 @@ msgstr ""
 "When importing articles on OpenEdition Journals or book chapters on OpenEdition Books "
 "(import OB), the following elements are supported:"
 
-#: ../../en/tei.teiHeader.rst:438
+#: ../../en/tei.teiHeader.rst:406
 msgid "pagination de l'édition papier (import OJ et import OB) ;"
 msgstr "Pagination of the print edition (OJ import and OB import);"
 
-#: ../../en/tei.teiHeader.rst:439
+#: ../../en/tei.teiHeader.rst:407
 msgid ""
 "date de publication papier (import OJ). Sur OpenEdition Books la date de publication "
 "papier est définie au niveau du livre."
@@ -761,52 +714,75 @@ msgstr ""
 "Date of print publication (import OJ). On OpenEdition Books the print publication date "
 "is defined at the book level."
 
-#: ../../en/tei.teiHeader.rst:448
+#: ../../en/tei.teiHeader.rst:409
+msgid ""
+"Date de publication papier : date au format JJ/MM/AAAA ; ne pas utiliser cette date "
+"pour OpenEdition Books ;"
+msgstr ""
+"Print publication date: date in format DD/MM/YYYYY; do not use this date for "
+"OpenEdition Books;"
+
+#: ../../en/tei.teiHeader.rst:410
+msgid ""
+"Pagination :  renseignée en chiffres romains (V-XXV) ou en chiffres arabes (5-25), "
+"sans les mentions p. ou pp. ;"
+msgstr ""
+"Pagination: filled in Roman numbers (V-XXV) or Arabic numbers (5-25), without the "
+"mentions p. or pp.;"
+
+#: ../../en/tei.teiHeader.rst:411
+msgid ""
+"Notice biblio : utilisée pour préciser la notice bibliographique du document papier."
+msgstr ""
+"Bibliographical reference: used to specify the bibliographical reference of the "
+"document’s printed edition."
+
+#: ../../en/tei.teiHeader.rst:416
 msgid "biblStruct/series"
 msgstr "biblStruct/series"
 
-#: ../../en/tei.teiHeader.rst:452
+#: ../../en/tei.teiHeader.rst:420
 msgid "Titre de la collection :"
 msgstr "Title of the serie:"
 
-#: ../../en/tei.teiHeader.rst:453
+#: ../../en/tei.teiHeader.rst:421
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/series/title[@level='s']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/series/title[@level='s']``"
 
-#: ../../en/tei.teiHeader.rst:454
+#: ../../en/tei.teiHeader.rst:422
 msgid "Titre traduit de la collection :"
 msgstr "Translated title of the serie:"
 
-#: ../../en/tei.teiHeader.rst:455
+#: ../../en/tei.teiHeader.rst:423
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/series/title[@level='s' and @type='alt']``"
 msgstr ""
 "``/TEI/teiHeader/sourceDesc/biblStruct/series/title[@level='s' and @type='alt']``"
 
-#: ../../en/tei.teiHeader.rst:456
+#: ../../en/tei.teiHeader.rst:424
 msgid "ISSN électronique de la collection :"
 msgstr "Electronic ISSN of the serie:"
 
-#: ../../en/tei.teiHeader.rst:457
+#: ../../en/tei.teiHeader.rst:425
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/series/idno[@type='eISSN']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/series/idno[@type='eISSN']``"
 
-#: ../../en/tei.teiHeader.rst:458
+#: ../../en/tei.teiHeader.rst:426
 msgid "ISSN papier de la collection :"
 msgstr "Print ISSN of the serie:"
 
-#: ../../en/tei.teiHeader.rst:459
+#: ../../en/tei.teiHeader.rst:427
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/series/idno[@type='pISSN']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/series/idno[@type='pISSN']``"
 
-#: ../../en/tei.teiHeader.rst:460
+#: ../../en/tei.teiHeader.rst:428
 msgid "URL de la collection :"
 msgstr "URL of the serie:"
 
-#: ../../en/tei.teiHeader.rst:461
+#: ../../en/tei.teiHeader.rst:429
 msgid "``/TEI/teiHeader/sourceDesc/biblStruct/series/idno[@type='url']``"
 msgstr "``/TEI/teiHeader/sourceDesc/biblStruct/series/idno[@type='url']``"
 
-#: ../../en/tei.teiHeader.rst:465
+#: ../../en/tei.teiHeader.rst:433
 msgid ""
 "Dans l'export OE pour les **chapitres de livre uniquement**, l'élément ``series`` "
 "contient les métadonnées relatives à l'environnement de publication du document TEI "
@@ -815,23 +791,27 @@ msgstr ""
 "In OpenEdition TEI export, for **book chapters only**, the ``series`` element contains "
 "the metadata related to the publishing environment of the TEI document (series)."
 
-#: ../../en/tei.teiHeader.rst:469
+#: ../../en/tei.teiHeader.rst:437
 msgid "Exemples biblStruct"
 msgstr "biblStruct Examples"
 
-#: ../../en/tei.teiHeader.rst:472
+#: ../../en/tei.teiHeader.rst:439
+msgid "**Exemple d'article de revue (import OEJ)**"
+msgstr "**Journal article (import OEJ)**"
+
+#: ../../en/tei.teiHeader.rst:457
 msgid "**Exemple d'article de revue (export OE)**"
 msgstr "**Journal article (OpenEdition export)**"
 
-#: ../../en/tei.teiHeader.rst:513
+#: ../../en/tei.teiHeader.rst:498
 msgid "**Exemple de chapitre de livre (export OE)**"
 msgstr "**Book chapter (OpenEdition export)**"
 
-#: ../../en/tei.teiHeader.rst:553
+#: ../../en/tei.teiHeader.rst:538
 msgid "encodingDesc"
 msgstr "encodingDesc"
 
-#: ../../en/tei.teiHeader.rst:555
+#: ../../en/tei.teiHeader.rst:540
 msgid ""
 "Contient des déclarations de mise en forme dans l'élément ``tagsDecl``. Voir :ref:`tei-"
 "teibody-mises-en-forme`"
@@ -839,15 +819,15 @@ msgstr ""
 "Contains formatting declarations in the ``tagsDecl`` element. See :ref:`tei-teibody-"
 "mises-en-forme`"
 
-#: ../../en/tei.teiHeader.rst:561
+#: ../../en/tei.teiHeader.rst:546
 msgid "profileDesc"
 msgstr "profileDesc"
 
-#: ../../en/tei.teiHeader.rst:567
+#: ../../en/tei.teiHeader.rst:552
 msgid "Index : mots clés, géographie, chronologie, thèmes, etc."
 msgstr "Index: keywords, geography, chronology, themes, etc."
 
-#: ../../en/tei.teiHeader.rst:571
+#: ../../en/tei.teiHeader.rst:556
 msgid ""
 "Index :  ``/TEI/teiHeader/profileDesc/textClass/keywords[@scheme and @xml:lang]/list/"
 "item``"
@@ -855,7 +835,7 @@ msgstr ""
 "Index : ``/TEI/teiHeader/profileDesc/textClass/keywords[@scheme and @xml:lang]/list/"
 "item``"
 
-#: ../../en/tei.teiHeader.rst:573
+#: ../../en/tei.teiHeader.rst:558
 msgid ""
 "Index de personnes, utilisation de ``<persName>`` : ``/TEI/teiHeader/profileDesc/"
 "textClass/keywords[@scheme]/list/item/persName/forename`` et ``/TEI/teiHeader/"
@@ -865,11 +845,11 @@ msgstr ""
 "keywords[@scheme]/list/item/persName/forename`` and ``/TEI/teiHeader/profileDesc/"
 "textClass/keywords[@scheme]/list/item/persName/surname``"
 
-#: ../../en/tei.teiHeader.rst:578
+#: ../../en/tei.teiHeader.rst:563
 msgid "valeurs autorisées pour l'attribut 'scheme' :"
 msgstr "allowed values for the 'scheme' attribute:"
 
-#: ../../en/tei.teiHeader.rst:580
+#: ../../en/tei.teiHeader.rst:565
 msgid ""
 "``<keywords scheme=\"keywords\" lang=\"fr\">`` : index de mots clés (attribut 'xml:"
 "lang' obligatoire avec une valeur au format ISO 639-1) ;"
@@ -877,30 +857,51 @@ msgstr ""
 "``<keywords scheme=\"keywords\" lang=\"fr\">`` : keyword index (mandatory 'xml:lang' "
 "attribute with a value in ISO 639-1 format);"
 
-#: ../../en/tei.teiHeader.rst:581
+#: ../../en/tei.teiHeader.rst:566
 msgid "``<keywords scheme=\"geographical\">`` : index géographique, lieux ;"
 msgstr "``<keywords scheme=\"geographical\">``: Geographical index;"
 
-#: ../../en/tei.teiHeader.rst:582
+#: ../../en/tei.teiHeader.rst:567
 msgid "``<keywords scheme=\"chronological\">`` : index chronologique, périodes ;"
 msgstr "``<keywords scheme=\"chronological\">``: Chronological index;"
 
-#: ../../en/tei.teiHeader.rst:583
+#: ../../en/tei.teiHeader.rst:568
 msgid "``<keywords scheme=\"subject\">`` : index thématique, sujets ;"
 msgstr "``<keywords scheme=\"subject\">``: Thematic index;"
 
-#: ../../en/tei.teiHeader.rst:584
+#: ../../en/tei.teiHeader.rst:569
 msgid "``<keywords scheme=\"personcited\">`` : personnes citées (index de personne)."
 msgstr "``<keywords scheme=\"personcited\">``: Cited persons index."
 
-#: ../../en/tei.teiHeader.rst:637
+#: ../../en/tei.teiHeader.rst:622
 msgid "Langue"
 msgstr "Language"
 
-#: ../../en/tei.teiHeader.rst:641
+#: ../../en/tei.teiHeader.rst:626
 msgid "Langue : ``/TEI/teiHeader/profileDesc/langUsage/language``"
 msgstr "Language: ``/TEI/teiHeader/profileDesc/langUsage/language``"
 
-#: ../../en/tei.teiHeader.rst:645
+#: ../../en/tei.teiHeader.rst:630
 msgid "Langue : valeur au format ISO 639-1 ;"
 msgstr "Language: value in ISO 639-1 format;"
+
+#~ msgid ""
+#~ "Date de publication papier : ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/"
+#~ "publicationStmt/date``"
+#~ msgstr ""
+#~ "Print publication date: ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/"
+#~ "publicationStmt/date``"
+
+#~ msgid ""
+#~ "Pagination : ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/"
+#~ "idno[@type='pp']``"
+#~ msgstr ""
+#~ "Pagination: ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/publicationStmt/"
+#~ "idno[@type='pp']``"
+
+#~ msgid ""
+#~ "Notice bibliographique du document : ``/TEI/teiHeader/fileDesc/sourceDesc/biblFull/"
+#~ "notesStmt/note[@type='bibl']``"
+#~ msgstr ""
+#~ "Bibliographical reference of the document’s printed edition: ``/TEI/teiHeader/"
+#~ "fileDesc/sourceDesc/biblFull/notesStmt/note[@type='bibl']``"
