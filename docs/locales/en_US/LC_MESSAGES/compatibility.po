@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition TEI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 10:24+0100\n"
-"PO-Revision-Date: 2019-12-16 10:27+0100\n"
+"POT-Creation-Date: 2020-02-05 08:47+0100\n"
+"PO-Revision-Date: 2020-02-05 08:50+0100\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -80,12 +80,12 @@ msgid "1.6.2"
 msgstr "1.6.2"
 
 #: ../../en/compatibility.rst:32
-msgid "1.0.1"
-msgstr "1.0.1"
+msgid "1.0.2"
+msgstr "1.0.2"
 
 #: ../../en/compatibility.rst:32
-msgid "v1.2.0 (à venir)"
-msgstr "v1.2.0 (upcoming)"
+msgid "v1.2.0"
+msgstr "v1.2.0"
 
 #: ../../en/compatibility.rst:34
 msgid "1.6.1"
@@ -924,3 +924,9 @@ msgstr "Some sites use MathJax to display LaTeX formulas in the browser."
 
 #~ msgid "1.6.2 (à venir)"
 #~ msgstr "1.6.2 (upcoming)"
+
+#~ msgid "1.0.1"
+#~ msgstr "1.0.1"
+
+#~ msgid "v1.2.0 (à venir)"
+#~ msgstr "v1.2.0 (upcoming)"
