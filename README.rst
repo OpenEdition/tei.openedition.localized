@@ -2,7 +2,7 @@ TEI OpenEdition - localized documentation
 #########################################################
 
 This repository contains localized documentation for OpenEdition TEI documentation. It
-is based on master document placed in phpmyadmin repository.
+is based on master document placed in tei.openedition repository.
 
 How to initialize
 =========================================================
