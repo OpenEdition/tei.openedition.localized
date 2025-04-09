@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition TEI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 08:47+0100\n"
-"PO-Revision-Date: 2020-02-05 08:48+0100\n"
+"POT-Creation-Date: 2025-04-09 15:24+0200\n"
+"PO-Revision-Date: 2025-04-09 17:19+0200\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -17,14 +17,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.1\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 2.4.2\n"
 
-#: ../../en/index.rst:27
+#: ../../en/index.rst:34
 msgid "TEI"
 msgstr "TEI"
 
-#: ../../en/index.rst:38
+#: ../../en/index.rst:45
 msgid "À propos"
 msgstr "About"
 
@@ -33,8 +33,8 @@ msgid "Documentation TEI OpenEdition"
 msgstr "OpenEdition TEI Guidelines"
 
 #: ../../en/index.rst:5
-msgid "Version 1.6.2"
-msgstr "Release 1.6.2"
+msgid "Version 1.6.4"
+msgstr "Release 1.6.4"
 
 #: ../../en/index.rst:13
 msgid ""
@@ -68,13 +68,13 @@ msgstr ""
 
 #: ../../en/index.rst:21
 msgid ""
-"Le support des éléments selon le contexte (Import OpenEdition Journals ou "
-"Books, Export TEI OpenEdition) et la version du schéma TEI est précisé dans la "
-"partie : :ref:`tei-application`"
+"Le support des éléments selon le contexte (Import et Export TEI pour "
+"OpenEdition Journals) et la version du schéma TEI est précisé dans la partie : :"
+"ref:`tei-application`"
 msgstr ""
-"The support of the elements according to the context (OpenEdition Journals or "
-"Books Import, OpenEdition TEI Export) and the version of the TEI schema is "
-"specified in the part: :ref:`tei-application`"
+"The support of the elements according to the context (OpenEdition Journals "
+"Import and Export) and the version of the TEI schema is specified in the part: :"
+"ref:`tei-application`"
 
 #: ../../en/index.rst:23
 msgid ""
@@ -89,4 +89,20 @@ msgstr ""
 #: ../../en/index.rst:25
 msgid "La page :ref:`changelog` précise les évolutions des versions du schéma TEI"
 msgstr ""
-"The page :ref:`changelog` lists the changes of the versions of the TEI schema."
+"The page :ref:`changelog` lists the changes of the versions of the TEI schema"
+
+#: ../../en/index.rst:29
+msgid ""
+"À partir de la version 1.6.4, le schéma TEI s'applique uniquement à OpenEdition "
+"Journals."
+msgstr ""
+"From release 1.6.4, the OpenEdition TEI Schema only apply for OpenEdition "
+"Journals."
+
+#: ../../en/index.rst:31
+msgid ""
+"Pour OpenEdition Books, se référer à la `documentation <https://tei-commons-"
+"publishing.readthedocs.io>`_ du schéma TEI Commons Publishing."
+msgstr ""
+"For OpenEdition Books, refer to the `documentation <https://tei-commons-"
+"publishing.readthedocs.io>` of the TEI Commons Publishing schema."
